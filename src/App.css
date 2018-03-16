@@ -1,0 +1,16 @@
+html,body {
+  background-color: #f08281;
+  height: 100%;
+}
+
+.app-container {
+  height:100%;
+}
+
+.row-full-height {
+  height:100%;
+}
+
+#root {
+  height: 100%;
+}
