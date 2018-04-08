@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.borith\.co.uk$ [NC]
+RewriteRule ^(.*)$ https://www.borith.co.uk/$1 [R=301,L]

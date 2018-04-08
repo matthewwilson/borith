@@ -4,10 +4,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="app-container">
+      <div className="container-fluid app-container">
         <div class="row align-items-center row-full-height">
-          <div class="col">
-            <img className="img-fluid mx-auto d-block" src="/img/borith.png"/>
+          <div class="col align-self-center">
+            <img className="img-fluid mx-auto d-block logo" src="/img/borith.png"/>
           </div>
         </div>
       </div>
